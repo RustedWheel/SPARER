@@ -14,7 +14,7 @@ public class AESEncryptor {
 	
 	private static final String ALGORITHM = "AES";
 	
-    public static String encrypt(String data, String key) {
+    public String encrypt(String data, String key) {
         try {
         	
             SecretKeySpec sspec = new SecretKeySpec(key.getBytes(), ALGORITHM);
@@ -28,7 +28,7 @@ public class AESEncryptor {
         }
     }
 
-    public static String decrypt(String encryptedData, String key) {
+    public String decrypt(String encryptedData, String key) {
         try {
         	
             SecretKeySpec sspec = new SecretKeySpec(key.getBytes(), ALGORITHM);
