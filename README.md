@@ -1,1 +1,1 @@
-#SPARER Java implementation (Kinda)
+#SPARER Java implementation
